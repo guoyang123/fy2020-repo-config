@@ -1,12 +1,6 @@
 server:
   port: 8082
 spring:
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: CONFIG-SERVER
-      profile: dev
   application:
     name: cart
   rabbitmq:
