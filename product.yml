@@ -28,7 +28,9 @@ spring:
         min-idle: 2
     timeout: 1000      
       
-      
+mybatis:
+  mapper-locations: classpath*:com/neuedu/mapper/*Mapper.xml
+  config-location: classpath:mybatis-config.xml       
   rabbitmq:
     host: 47.94.155.74
     port: 5672
