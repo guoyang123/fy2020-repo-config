@@ -1,12 +1,2 @@
-server:
-  port: 8082
-spring:
-  rabbitmq:
-    host: 47.94.155.74
-    port: 5672
-    username: root
-    password: Qinfo20180507
-    
-env: dev6
 
 
