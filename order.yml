@@ -28,7 +28,7 @@ spring:
         max-active: 10
         max-wait: 10
         max-idle: 10
-        min-idle: 1
+        min-idle: 10
     timeout: 1000      
       
 mybatis:
