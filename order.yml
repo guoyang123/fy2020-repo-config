@@ -25,10 +25,10 @@ spring:
     password: Qinfo20180507
     jedis:
       pool:
-        max-active: 1
-        max-wait: 50
-        max-idle: 1
-        min-idle: 2
+        max-active: 10
+        max-wait: 10
+        max-idle: 2
+        min-idle: 1
     timeout: 1000      
       
 mybatis:
