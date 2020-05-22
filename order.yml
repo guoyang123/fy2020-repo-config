@@ -26,7 +26,7 @@ spring:
     jedis:
       pool:
         max-active: 1
-        max-wait: 10
+        max-wait: 50
         max-idle: 10
         min-idle: 2
     timeout: 1000      
