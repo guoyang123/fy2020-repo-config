@@ -27,7 +27,7 @@ spring:
       pool:
         max-active: 10
         max-wait: 10
-        max-idle: 2
+        max-idle: 10
         min-idle: 1
     timeout: 1000      
       
